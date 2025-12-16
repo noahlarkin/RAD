@@ -35,6 +35,7 @@ jobs:
       - name: Install Rad
         run: |
           pip install .
+          pip install pytest
           pip list
 
       - name: Run unit tests
